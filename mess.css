@@ -1,0 +1,336 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background-color:black;
+}
+.container{
+    display: grid;
+    grid-template-columns: 20vh 25vh auto;
+    margin-left: 1rem;
+    position: relative;
+    column-gap: 5rem;
+}
+.container .bar-icons{
+    position:fixed;
+    height: 6rem;
+    font-size: x-large;
+    font-weight: 800;
+    height:56rem;
+    
+}
+.bar-icons{
+    background-color: rgb(23, 24, 23);
+    width: 5rem; 
+        
+}
+.bar-icons .menu{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1.3rem;
+    color: rgb(245, 245, 220);
+    position: relative;
+    top: 2.5rem;
+    
+}
+.bar-icons .bar-icon{
+    margin: 6rem;
+    font-size: x-large;
+    position: fixed;
+
+
+
+}
+.bar-icons .menu:hover{
+   color: aqua;
+}
+/* -----------------------------------------messages---------------------------------------------------------------------------------- */
+
+.messages{
+  background-color: beige;
+  width: 429px;
+  height: 1000px;
+  padding:2rem;
+  margin-left: 5.3rem;
+  position: relative;
+  top: 0;
+  
+}
+.messages .header{
+    display:flex;
+    justify-content: space-between;
+    padding: 0.5rem;
+    font-size:larger;
+    font-weight: 600;
+}
+.messages .header .icon{
+    font-size: x-large;
+    font-weight: 800;
+}
+/* -------------------------------------search bar--------------------------------------------------- */
+.messages .search-bar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem;
+    background-color: gray;
+    width: 25rem;
+    margin-left: -1rem;
+    height: 2.8rem;
+    border-radius: 20px;
+    
+}
+.search-bar input {
+    background: transparent;
+    border: none;
+    outline: none;
+    width:18rem;
+   
+    
+}
+.search-bar input::placeholder{
+    color: black;
+   padding-left: 4.5rem;
+}  
+/* -------------------------------------------category------------------------------------------------------------------------ */
+.messages .category {
+    display: flex;
+    justify-content: space-between;
+    gap: 4rem;
+    margin: 0.8rem;
+    position: relative;
+    top: 1rem;
+    font-size: larger;
+    margin-left: -1.5rem;
+     
+   
+}
+.category h3{
+   height: 2rem;
+   
+    
+}
+.category h3:hover{
+    background-color: rgba(128, 128, 128, 0.288);
+    border-radius: 10px;
+    width: 9rem;
+}
+.category .active{
+    background-color: rgba(128, 128, 128, 0.288);
+    border-radius:10px;
+    
+} 
+.messages hr{
+    margin-left: -2rem;
+    width: 26.8rem;
+    position: relative;
+    top: 0.1rem;
+}
+/* -------------------------------------profile------------------------------------------------------------------------------ */
+.photo img{
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+}
+.message{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: 1rem;
+    margin: 2rem
+    
+}
+.message .photo{
+    margin: -0.6rem;
+    margin-left: -3rem;
+}
+.message .text-body{
+    margin-left: -4rem;
+}
+ .small{
+   background-color: red;
+   height: 1.2rem;
+   width: 1.2rem;
+   border-radius: 80px;
+   font-size: 15px; 
+   position: relative;
+   top: 0.8rem;
+   color: beige;
+   padding-left: 0.4rem;
+   
+   
+}
+ .message .text{
+    margin-right: 8rem;
+    position: relative;
+}
+.message:hover{
+   background-color: rgba(128, 128, 128, 0.589);
+   border-radius: 14px;
+   width: 19rem;
+}
+/* -------------------------------------messages end---------------------------------------------------------------------------- */
+.right{
+    margin-left: 32.4rem;
+    background-color:rgba(255, 255, 255, 0.863);
+    width: 65rem;
+    height: 49rem;
+    position: fixed;
+
+    
+}
+.right .heading{
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.863);
+    color: beige;
+    align-items: center;
+    height: 5.5rem;
+
+}
+.heading .photo img{
+    margin-left: 1.5rem;
+}
+.heading .rtg{
+    margin-left: -43rem;
+}
+.heading .cons{
+    font-size: x-large;
+    word-spacing: 1rem;
+}
+.heading .rtg p{
+    color: rgba(28, 172, 28, 0.932);
+}
+/* -------------------------------------center---------------------------------------------------------------------------------- */
+.right-center{
+    margin: 2rem;
+    position: fixed;
+}
+.right-center .pic img{
+    width: 1.7rem;
+    height: 1.7rem;
+    border-radius: 40px;
+}
+.right-center .three{
+    display:flex;
+    gap: 0.5rem;
+   
+}
+.right-center .two{
+    position: relative;
+    top: 1rem;
+    margin-left: 2rem;
+    background-color: beige;
+    width: 18rem;
+    padding-left: 0.3rem;
+    border-radius: 10px;
+}
+.right-center .two h4{
+    position: relative;
+    top: 0.5rem;
+    font-size: large;
+}
+.right-center .two p{
+    position: relative;
+    top: 1.5rem;
+}
+
+.right-center .left-text{
+    margin-left: 44rem;
+    background-color:rgba(0, 4, 255, 0.527);
+    border-radius: 10px;
+    width: 18rem;
+    height: 3rem;
+    position: relative;
+    top: 3.5rem;
+}
+ .left-text p{
+    position: relative;
+    top: 2.3rem;
+ }
+ .left-text h4{
+    position: relative;
+    top: 1rem;
+    text-align: center;
+    font-size: large;
+ }
+
+ .right-text .dai img{
+    width: 1.7rem;
+    height: 1.7rem;
+    border-radius: 40px;
+    position: relative;
+    top: 7rem;
+ }
+ .right-text .dai{
+    display: flex;
+
+ }
+ .right-text .mi{
+    position: relative;
+    top: 6rem;
+    margin-left: 3rem;
+    background-color: beige;
+    width: 12rem;
+    border-radius: 10px;
+   
+ }
+ .mi p{
+    position: relative;
+    top: 2rem;
+ }
+ .mi h4{
+    position: relative;
+    text-align: center;
+    font-size: large;
+    top: 0.5rem;
+ }
+ /* -----------------------------center over------------------------------------------------------------------------------- */
+ .all{
+    position: fixed;
+    top: 45rem;
+    display: flex;
+    justify-content: space-between;
+    background-color:beige ;
+    width: 65rem;
+    height: 4rem;
+    align-items: center; 
+ }
+ .end{
+  margin-left: 3rem;
+  font-size: x-large;
+ }
+ .all .over{
+    font-size: x-large;
+    gap: 10px;
+    margin-right:8rem;
+ }
+ .end input{
+    width: 44rem;
+    outline: none;
+    border: none;
+    position: relative;
+    top: -0.3rem;
+    height: 2rem;
+    background: transparent;
+    
+ }
+ button{
+    position: relative;
+    top: 40.4rem;
+    margin-left: 58rem; 
+    background-color: aquamarine;
+    width: 5rem;
+    height: 2rem;
+    outline: none;
+    border: none;
+    border-radius: 20px;
+ }
+ button:hover{
+    background-color:rgba(127, 255, 212, 0.473) ;
+ }
